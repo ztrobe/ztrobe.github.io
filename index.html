@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZTROBE</title>
+<meta name="description" content="ZTROBE — electronic instruments. UK.">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon-180.png">
+<style>
+  :root{
+    --ink:#ffffff;
+    --dim:#8f8f8f;
+    --faint:#3a3a3a;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    background:#000;
+    color:var(--ink);
+    font-family:ui-monospace,"SF Mono","Cascadia Mono","JetBrains Mono",Menlo,Consolas,monospace;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:2.75rem;
+    padding:2rem;
+    text-align:center;
+  }
+  .mark{
+    width:min(560px,82vw);
+    height:auto;
+    display:block;
+  }
+  .line{
+    font-size:.72rem;
+    letter-spacing:.42em;
+    text-indent:.42em; /* balance the tracking */
+    color:var(--dim);
+    text-transform:uppercase;
+  }
+  .contact{
+    font-size:.72rem;
+    letter-spacing:.18em;
+    color:var(--dim);
+  }
+  .contact a{
+    color:var(--ink);
+    text-decoration:none;
+    border-bottom:1px solid var(--faint);
+    padding-bottom:2px;
+  }
+  .contact a:hover{border-bottom-color:var(--ink)}
+  .contact a:focus-visible{
+    outline:1px solid var(--ink);
+    outline-offset:4px;
+    border-bottom-color:transparent;
+  }
+  footer{
+    position:fixed;
+    bottom:1.25rem;
+    font-size:.62rem;
+    letter-spacing:.3em;
+    color:var(--faint);
+  }
+</style>
+</head>
+<body>
+  <img class="glyph" src="ztrobe-o.png" alt="" width="209" height="149">
+  <img class="mark" src="ztrobe-letter-chase.gif" alt="ZTROBE" width="900" height="152">
+  <p class="line">Synthesizers & Electronic instruments</p>
+  <p class="contact"><a href="mailto:"></a></p>
+  <footer>ZTROBE&nbsp;&nbsp;·&nbsp;&nbsp;UK</footer>
+</body>
+</html>
